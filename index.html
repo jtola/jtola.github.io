@@ -37,11 +37,14 @@
     messagingSenderId: "147408997321"
   };
   firebase.initializeApp(config);
-</script>
-
+  
 var testOne = document.getElementById('testOne');
 var dbRef = firebase.database().ref().child('text');
 dbRef.on('value',snap => testOne.innerText = snap.val());
+  
+</script>
+
+
 
 	<div class="bg-contact2" style="background-image: url('images/bg-01.jpg');">
 		<div class="container-contact2">
