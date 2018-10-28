@@ -1119,7 +1119,7 @@ input::-moz-focus-inner {
   background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
 }
 
-.s-home--particles {
+.s-home--particle {
   background: #141414;
   background: radial-gradient(circle, #141414 0%, black 100%);
 }
