@@ -41,6 +41,12 @@
 var testOne = document.getElementById('testOne');
 var dbRef = firebase.database().ref().child('text1');
 dbRef.on('value',snap => testOne.innerText = snap.val());
+
+var data = {
+	name: "JFT",
+	score: 70
+	}
+	ref.push(data);
   
 </script>
 
