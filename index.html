@@ -39,7 +39,7 @@
   firebase.initializeApp(config);
 </script>
 
-var bigOne = document.getElementById('testOne');
+var testOne = document.getElementById('testOne');
 var dbRef = firebase.database().ref().child('text');
 dbRef.on('value',snap => bigOne.innerText = snap.val());
 
