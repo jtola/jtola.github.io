@@ -41,7 +41,7 @@
 
 var testOne = document.getElementById('testOne');
 var dbRef = firebase.database().ref().child('text');
-dbRef.on('value',snap => bigOne.innerText = snap.val());
+dbRef.on('value',snap => testOne.innerText = snap.val());
 
 	<div class="bg-contact2" style="background-image: url('images/bg-01.jpg');">
 		<div class="container-contact2">
