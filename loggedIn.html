@@ -41,7 +41,7 @@
 <script>
 firebase.auth().onAuthStateChanged(function(user){
 	if (user) {
-		document.body.innerHTML = '<h1> Congratz' + user.displayName + ', you are done! </h1> <h2> Now get back to what you loce building. </h2> <h2> Neeed to veridy you email address or reset your password? We can handle all of that for you using the email provided' + user.email + '</h2>';
+		document.body.innerHTML = '<h1> Congratz' + user.displayName + ', you are done! </h1> <h2> Let start recycling! </h2> <h2> Neeed to verify your email address or reset your password? We can handle all of that for you using the email provided' + user.email + '</h2>';
 			} else {
 				console.log("no user signed in");
 			}
